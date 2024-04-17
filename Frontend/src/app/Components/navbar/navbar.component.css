@@ -1,0 +1,29 @@
+.btn
+{
+color: white;
+}
+.glow {
+    font-size: 80px;
+    color: #000000;
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+@keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff;
+    }
+    to {
+      text-shadow: 0 0 20px #fff ;
+    }
+  }
+  a {
+    color: #000000;
+    text-decoration: none;
+}
+a:hover {
+    color:#000000; 
+    text-decoration:none; 
+    cursor:pointer;  
+}
